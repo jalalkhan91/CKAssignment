@@ -1,0 +1,6 @@
+framework module Pods_CiklumCodeChallenge {
+  umbrella header "Pods-CiklumCodeChallenge-umbrella.h"
+
+  export *
+  module * { export * }
+}

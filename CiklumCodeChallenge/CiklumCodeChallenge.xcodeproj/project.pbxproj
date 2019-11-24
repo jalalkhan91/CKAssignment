@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45AB62A3570F3DADF83AEC66 /* Pods_CiklumCodeChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6E8FD5E788674AFB90160E /* Pods_CiklumCodeChallengeTests.framework */; };
+		4D118954238A5BFF009DAAC8 /* MoviesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D118953238A5BFF009DAAC8 /* MoviesListViewModel.swift */; };
+		4D118956238A8065009DAAC8 /* MoviesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D118955238A8065009DAAC8 /* MoviesListViewController.swift */; };
+		4D32AB3823896A5C003517B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32AB3723896A5C003517B6 /* AppDelegate.swift */; };
+		4D32AB3A23896A5C003517B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32AB3923896A5C003517B6 /* SceneDelegate.swift */; };
+		4D32AB3F23896A5C003517B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D32AB3D23896A5C003517B6 /* Main.storyboard */; };
+		4D32AB4123896A5F003517B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D32AB4023896A5F003517B6 /* Assets.xcassets */; };
+		4D32AB4423896A5F003517B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D32AB4223896A5F003517B6 /* LaunchScreen.storyboard */; };
+		4D32AB4F23896A5F003517B6 /* CiklumCodeChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32AB4E23896A5F003517B6 /* CiklumCodeChallengeTests.swift */; };
+		4D32AB6423896F53003517B6 /* MoviesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32AB6323896F53003517B6 /* MoviesListViewController.swift */; };
+		4D32AB6623897253003517B6 /* MoviesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32AB6523897253003517B6 /* MoviesTableViewCell.swift */; };
+		4D32AB6823897277003517B6 /* MoviesSuggestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32AB6723897277003517B6 /* MoviesSuggestionTableViewCell.swift */; };
+		4D32AB6C2389790E003517B6 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32AB6B2389790E003517B6 /* Movies.swift */; };
+		4D32AB6E23897987003517B6 /* HttpHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32AB6D23897987003517B6 /* HttpHandler.swift */; };
+		4D32AB702389799A003517B6 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32AB6F2389799A003517B6 /* APIManager.swift */; };
+		4D32AB7323897F95003517B6 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32AB7223897F95003517B6 /* UIViewController+Extension.swift */; };
+		4D32AB7623898077003517B6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32AB7523898077003517B6 /* Constants.swift */; };
+		98E10919A20C4D53037501F3 /* Pods_CiklumCodeChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C66F78318EBC20FEB2F2027 /* Pods_CiklumCodeChallenge.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D32AB4B23896A5F003517B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D32AB2C23896A5C003517B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D32AB3323896A5C003517B6;
+			remoteInfo = CiklumCodeChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22FE7967E2B7E64534A21FAA /* Pods-CiklumCodeChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CiklumCodeChallenge.debug.xcconfig"; path = "Target Support Files/Pods-CiklumCodeChallenge/Pods-CiklumCodeChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		3C66F78318EBC20FEB2F2027 /* Pods_CiklumCodeChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CiklumCodeChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D118953238A5BFF009DAAC8 /* MoviesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListViewModel.swift; sourceTree = "<group>"; };
+		4D118955238A8065009DAAC8 /* MoviesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListViewController.swift; sourceTree = "<group>"; };
+		4D32AB3423896A5C003517B6 /* CiklumCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CiklumCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D32AB3723896A5C003517B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D32AB3923896A5C003517B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4D32AB3E23896A5C003517B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D32AB4023896A5F003517B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D32AB4323896A5F003517B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D32AB4523896A5F003517B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D32AB4A23896A5F003517B6 /* CiklumCodeChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CiklumCodeChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D32AB4E23896A5F003517B6 /* CiklumCodeChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CiklumCodeChallengeTests.swift; sourceTree = "<group>"; };
+		4D32AB5023896A5F003517B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D32AB6323896F53003517B6 /* MoviesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListViewController.swift; sourceTree = "<group>"; };
+		4D32AB6523897253003517B6 /* MoviesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewCell.swift; sourceTree = "<group>"; };
+		4D32AB6723897277003517B6 /* MoviesSuggestionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesSuggestionTableViewCell.swift; sourceTree = "<group>"; };
+		4D32AB6B2389790E003517B6 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		4D32AB6D23897987003517B6 /* HttpHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpHandler.swift; sourceTree = "<group>"; };
+		4D32AB6F2389799A003517B6 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		4D32AB7223897F95003517B6 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		4D32AB7523898077003517B6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		510CE9A577CCE1924428D842 /* Pods-CiklumCodeChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CiklumCodeChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-CiklumCodeChallengeTests/Pods-CiklumCodeChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A6E8FD5E788674AFB90160E /* Pods_CiklumCodeChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CiklumCodeChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4BF24CF9B119CAC11B8DF03 /* Pods-CiklumCodeChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CiklumCodeChallenge.release.xcconfig"; path = "Target Support Files/Pods-CiklumCodeChallenge/Pods-CiklumCodeChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		FF023B80636AA0F7A1385EA1 /* Pods-CiklumCodeChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CiklumCodeChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-CiklumCodeChallengeTests/Pods-CiklumCodeChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D32AB3123896A5C003517B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98E10919A20C4D53037501F3 /* Pods_CiklumCodeChallenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D32AB4723896A5F003517B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45AB62A3570F3DADF83AEC66 /* Pods_CiklumCodeChallengeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4092A95BB1A65F7C52618826 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22FE7967E2B7E64534A21FAA /* Pods-CiklumCodeChallenge.debug.xcconfig */,
+				B4BF24CF9B119CAC11B8DF03 /* Pods-CiklumCodeChallenge.release.xcconfig */,
+				510CE9A577CCE1924428D842 /* Pods-CiklumCodeChallengeTests.debug.xcconfig */,
+				FF023B80636AA0F7A1385EA1 /* Pods-CiklumCodeChallengeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4D118952238A5BE2009DAAC8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4D118953238A5BFF009DAAC8 /* MoviesListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4D32AB2B23896A5C003517B6 = {
+			isa = PBXGroup;
+			children = (
+				4D32AB3623896A5C003517B6 /* CiklumCodeChallenge */,
+				4D32AB4D23896A5F003517B6 /* CiklumCodeChallengeTests */,
+				4D32AB3523896A5C003517B6 /* Products */,
+				4092A95BB1A65F7C52618826 /* Pods */,
+				CFCDE1F9AC86F43568394D34 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4D32AB3523896A5C003517B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D32AB3423896A5C003517B6 /* CiklumCodeChallenge.app */,
+				4D32AB4A23896A5F003517B6 /* CiklumCodeChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D32AB3623896A5C003517B6 /* CiklumCodeChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				4D32AB5923896A8D003517B6 /* AppDelegates */,
+				4D32AB5A23896AC3003517B6 /* Storyboards */,
+				4D32AB5F23896B13003517B6 /* Views */,
+				4D32AB5E23896AF9003517B6 /* ViewControllers */,
+				4D118952238A5BE2009DAAC8 /* ViewModel */,
+				4D32AB7123897F76003517B6 /* Extensions */,
+				4D32AB5B23896AD7003517B6 /* Models */,
+				4D32AB6123896B29003517B6 /* WebManagers */,
+				4D32AB7423898063003517B6 /* Constants */,
+				4D32AB4023896A5F003517B6 /* Assets.xcassets */,
+				4D32AB4223896A5F003517B6 /* LaunchScreen.storyboard */,
+				4D32AB4523896A5F003517B6 /* Info.plist */,
+			);
+			path = CiklumCodeChallenge;
+			sourceTree = "<group>";
+		};
+		4D32AB4D23896A5F003517B6 /* CiklumCodeChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D32AB4E23896A5F003517B6 /* CiklumCodeChallengeTests.swift */,
+				4D118955238A8065009DAAC8 /* MoviesListViewController.swift */,
+				4D32AB5023896A5F003517B6 /* Info.plist */,
+			);
+			path = CiklumCodeChallengeTests;
+			sourceTree = "<group>";
+		};
+		4D32AB5923896A8D003517B6 /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				4D32AB3723896A5C003517B6 /* AppDelegate.swift */,
+				4D32AB3923896A5C003517B6 /* SceneDelegate.swift */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		4D32AB5A23896AC3003517B6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4D32AB3D23896A5C003517B6 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		4D32AB5B23896AD7003517B6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D32AB6B2389790E003517B6 /* Movies.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4D32AB5E23896AF9003517B6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D32AB6323896F53003517B6 /* MoviesListViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4D32AB5F23896B13003517B6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D32AB6523897253003517B6 /* MoviesTableViewCell.swift */,
+				4D32AB6723897277003517B6 /* MoviesSuggestionTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4D32AB6123896B29003517B6 /* WebManagers */ = {
+			isa = PBXGroup;
+			children = (
+				4D32AB6D23897987003517B6 /* HttpHandler.swift */,
+				4D32AB6F2389799A003517B6 /* APIManager.swift */,
+			);
+			path = WebManagers;
+			sourceTree = "<group>";
+		};
+		4D32AB7123897F76003517B6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4D32AB7223897F95003517B6 /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4D32AB7423898063003517B6 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				4D32AB7523898077003517B6 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		CFCDE1F9AC86F43568394D34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C66F78318EBC20FEB2F2027 /* Pods_CiklumCodeChallenge.framework */,
+				6A6E8FD5E788674AFB90160E /* Pods_CiklumCodeChallengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D32AB3323896A5C003517B6 /* CiklumCodeChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D32AB5323896A5F003517B6 /* Build configuration list for PBXNativeTarget "CiklumCodeChallenge" */;
+			buildPhases = (
+				06467D3FA29E694A6D9EE396 /* [CP] Check Pods Manifest.lock */,
+				4D32AB3023896A5C003517B6 /* Sources */,
+				4D32AB3123896A5C003517B6 /* Frameworks */,
+				4D32AB3223896A5C003517B6 /* Resources */,
+				5555B315A85D156F3522C103 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CiklumCodeChallenge;
+			productName = CiklumCodeChallenge;
+			productReference = 4D32AB3423896A5C003517B6 /* CiklumCodeChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D32AB4923896A5F003517B6 /* CiklumCodeChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D32AB5623896A5F003517B6 /* Build configuration list for PBXNativeTarget "CiklumCodeChallengeTests" */;
+			buildPhases = (
+				750F27FE44BFB99E097914D0 /* [CP] Check Pods Manifest.lock */,
+				4D32AB4623896A5F003517B6 /* Sources */,
+				4D32AB4723896A5F003517B6 /* Frameworks */,
+				4D32AB4823896A5F003517B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D32AB4C23896A5F003517B6 /* PBXTargetDependency */,
+			);
+			name = CiklumCodeChallengeTests;
+			productName = CiklumCodeChallengeTests;
+			productReference = 4D32AB4A23896A5F003517B6 /* CiklumCodeChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D32AB2C23896A5C003517B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Jalal Khan";
+				TargetAttributes = {
+					4D32AB3323896A5C003517B6 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					4D32AB4923896A5F003517B6 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 4D32AB3323896A5C003517B6;
+					};
+				};
+			};
+			buildConfigurationList = 4D32AB2F23896A5C003517B6 /* Build configuration list for PBXProject "CiklumCodeChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D32AB2B23896A5C003517B6;
+			productRefGroup = 4D32AB3523896A5C003517B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D32AB3323896A5C003517B6 /* CiklumCodeChallenge */,
+				4D32AB4923896A5F003517B6 /* CiklumCodeChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D32AB3223896A5C003517B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D32AB4423896A5F003517B6 /* LaunchScreen.storyboard in Resources */,
+				4D32AB4123896A5F003517B6 /* Assets.xcassets in Resources */,
+				4D32AB3F23896A5C003517B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D32AB4823896A5F003517B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06467D3FA29E694A6D9EE396 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CiklumCodeChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5555B315A85D156F3522C103 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CiklumCodeChallenge/Pods-CiklumCodeChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CiklumCodeChallenge/Pods-CiklumCodeChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CiklumCodeChallenge/Pods-CiklumCodeChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		750F27FE44BFB99E097914D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CiklumCodeChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D32AB3023896A5C003517B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D32AB7323897F95003517B6 /* UIViewController+Extension.swift in Sources */,
+				4D32AB702389799A003517B6 /* APIManager.swift in Sources */,
+				4D32AB6823897277003517B6 /* MoviesSuggestionTableViewCell.swift in Sources */,
+				4D32AB6E23897987003517B6 /* HttpHandler.swift in Sources */,
+				4D32AB3823896A5C003517B6 /* AppDelegate.swift in Sources */,
+				4D32AB7623898077003517B6 /* Constants.swift in Sources */,
+				4D32AB6C2389790E003517B6 /* Movies.swift in Sources */,
+				4D32AB3A23896A5C003517B6 /* SceneDelegate.swift in Sources */,
+				4D118954238A5BFF009DAAC8 /* MoviesListViewModel.swift in Sources */,
+				4D32AB6623897253003517B6 /* MoviesTableViewCell.swift in Sources */,
+				4D32AB6423896F53003517B6 /* MoviesListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D32AB4623896A5F003517B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D32AB4F23896A5F003517B6 /* CiklumCodeChallengeTests.swift in Sources */,
+				4D118956238A8065009DAAC8 /* MoviesListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D32AB4C23896A5F003517B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D32AB3323896A5C003517B6 /* CiklumCodeChallenge */;
+			targetProxy = 4D32AB4B23896A5F003517B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D32AB3D23896A5C003517B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D32AB3E23896A5C003517B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D32AB4223896A5F003517B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D32AB4323896A5F003517B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D32AB5123896A5F003517B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D32AB5223896A5F003517B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D32AB5423896A5F003517B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22FE7967E2B7E64534A21FAA /* Pods-CiklumCodeChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JYXXUJ2R7;
+				INFOPLIST_FILE = CiklumCodeChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jalalkhan.CiklumCodeChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D32AB5523896A5F003517B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4BF24CF9B119CAC11B8DF03 /* Pods-CiklumCodeChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JYXXUJ2R7;
+				INFOPLIST_FILE = CiklumCodeChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jalalkhan.CiklumCodeChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4D32AB5723896A5F003517B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 510CE9A577CCE1924428D842 /* Pods-CiklumCodeChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JYXXUJ2R7;
+				INFOPLIST_FILE = CiklumCodeChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jalalkhan.CiklumCodeChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CiklumCodeChallenge.app/CiklumCodeChallenge";
+			};
+			name = Debug;
+		};
+		4D32AB5823896A5F003517B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF023B80636AA0F7A1385EA1 /* Pods-CiklumCodeChallengeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JYXXUJ2R7;
+				INFOPLIST_FILE = CiklumCodeChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jalalkhan.CiklumCodeChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CiklumCodeChallenge.app/CiklumCodeChallenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D32AB2F23896A5C003517B6 /* Build configuration list for PBXProject "CiklumCodeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D32AB5123896A5F003517B6 /* Debug */,
+				4D32AB5223896A5F003517B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D32AB5323896A5F003517B6 /* Build configuration list for PBXNativeTarget "CiklumCodeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D32AB5423896A5F003517B6 /* Debug */,
+				4D32AB5523896A5F003517B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D32AB5623896A5F003517B6 /* Build configuration list for PBXNativeTarget "CiklumCodeChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D32AB5723896A5F003517B6 /* Debug */,
+				4D32AB5823896A5F003517B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D32AB2C23896A5C003517B6 /* Project object */;
+}
