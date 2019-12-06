@@ -35,7 +35,7 @@ on "search button”
 
 **Installation:**
 
-Once downloaded please open terminal and run following command $cd: pathToPersonalityChallenge $ pod install
+Once downloaded please open terminal and run following command $cd: pathToCKAssignment $ pod install
 
 
 **Swift5 - MVVM - XCUnitTests**
